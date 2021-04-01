@@ -27,3 +27,12 @@ var x = 3;
 }
 console.log(x);
 
+const anotherFuntion = () => {
+    for (let i = 0; i < 10; i++) {
+        setTimeout(() => {
+            console.log(i);
+        }, 1000);
+    }
+}
+
+anotherFuntion()
