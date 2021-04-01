@@ -8,5 +8,12 @@ const anotherFuntion = () => {
     console.log(helloWorld);
 }
 
-anotherFuntion()
+anotherFuntion();
+
+const helloWord = () => {
+    globalVar = 'im global';
+} 
+
+helloWord();
+console.log(globalVar);
 
